@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 1200px;
+    margin: auto;
+}
+h2{
+    color: #384763;
+}
+P{
+    color: #444;
+    font-size: 20px;
+    line-height: 1.6em;
+}
+
+/* header part start */
+header{
+
+background: #7F56F5;
+
+}
+.header-banner{
+    margin: auto;
+    width: 1400px;
+}
+.header-menu{
+    padding-top: 1em;
+    height: 59px;
+    width: 1400px;
+    text-align: center;
+    margin: auto;
+}
+.logo{
+    float: left;
+    width: 20%;
+    padding-top: 5px;
+}
+.logo a{}
+nav{
+    float: left;
+    width: 80%;
+}
+nav ul{
+    text-align: right;
+    /* display: inline-block; */
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 15px 40px 0 0px;
+    font-size: 22px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.header-text{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+.header-text h1{
+    font-size: 4em;
+    color: #fff;
+    padding-top: 150px;
+}
+.header-text p{
+    color: #fff;
+    padding: 50px 0 100px 0;
+}
+/* header part end */
+
+/* .feature part start */
+.feature-section{
+    margin: 40px 0;
+}
+.feature-row{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 3em;
+}
+.number{
+    width: 50%;
+    float: left;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.number img{}
+.number h2{
+    font-size: 32px;
+    padding: 30px 35px 30px 0px;
+}
+.number p{
+    padding-right: 60px;
+}
+.picture-part{
+    width: 50%;
+    float: left;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.picture-part img{}
+.feature-row a{
+    padding: 15px 30px;
+    font-size: 18px;
+    background: #5E2CED;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0 0 40px;
+}
+/* footer part start */
+footer{
+    background: #F5F5FA; 
+}
+.footer-section{
+    margin: auto;
+    width: 1400px;
+    padding-top: 100px;
+}
+.footer-img{
+    padding: 10px 0 30px 0;
+}
+.col-1-4{
+    /* padding-left: 61px; */
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
+}
+.footer-left{
+    padding-left: 85px;
+    width: 25%;
+    float: left;
+}
+.footer-logo img{}
+.footer-logo p{
+    padding-right: 60px;
+}
+.col-1-4 ul{
+    padding-left: 90px;
+}
+.col-1-4 ul li{
+    list-style: none;
+    line-height: 1.8em;
+    padding: 10px;
+}
+.col-1-4 ul li a{
+    text-decoration: none;
+    color: #444;
+}
+.col-1-4 ul li a h2{}
+.footer-bg{}
+.footer-bg img{
+    width: 100%;
+}
+/* footer part end */
